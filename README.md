@@ -1,6 +1,6 @@
 # Neutron
 
-A collection of styles for making [electron](http://electron.atom.io) applications appear and act more like plaid old native apps
+A collection of [styles](https://github.com/stve/neutron/blob/master/src/style.css) for making [electron](http://electron.atom.io) applications appear and act more like plaid old native apps
 
 ## Hat-tip
 
