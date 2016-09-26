@@ -1,0 +1,31 @@
+{
+  "name": "neutron",
+  "version": "1.0.0",
+  "description": "Stylesheets for electron projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stve/neutron.git"
+  },
+  "keywords": [
+    "electron",
+    "stylesheets",
+    "css",
+    "normalize"
+  ],
+  "author": "Steve Agalloco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stve/neutron/issues"
+  },
+  "homepage": "https://github.com/stve/neutron#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-stylelint": "^3.3.0",
+    "stylelint-config-standard": "^13.0.2"
+  }
+}

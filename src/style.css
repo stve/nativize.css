@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  cursor: default; /* use default cursor */
+  -webkit-user-select: none;  /* disable selection */
+  -webkit-user-drag: none; /* disable dragging */
+  outline: none; /* remove autofocus glow */
+}
+
+/* Prevent rubber-band scrolling of the whole "page" */
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Re-enable text selection in form elements */
+input,
+textarea {
+  -webkit-user-select: text;
+}
+
+form,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-user-select: text;
+  -webkit-app-region: no-drag;
+}
+
+button {
+  cursor: default;
+}
+
+/* Use system font */
+body {
+  font: caption;
+}
+
+/* Disable dragging */
+img {
+  -webkit-user-drag: none;
+}
