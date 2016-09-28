@@ -1,14 +1,15 @@
 {
-  "name": "neutron",
+  "name": "neutron.css",
   "version": "1.0.0",
   "description": "Stylesheets for electron projects",
-  "main": "index.js",
+  "main": "dist/style.css",
+  "style": "dist/style.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stve/neutron.git"
+    "url": "git+https://github.com/stve/neutron.css.git"
   },
   "keywords": [
     "electron",
@@ -19,9 +20,9 @@
   "author": "Steve Agalloco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stve/neutron/issues"
+    "url": "https://github.com/stve/neutron.css/issues"
   },
-  "homepage": "https://github.com/stve/neutron#readme",
+  "homepage": "https://github.com/stve/neutron.css",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.12",
