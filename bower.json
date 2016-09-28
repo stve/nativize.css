@@ -1,0 +1,22 @@
+{
+  "name": "neutron-css",
+  "description": "Stylesheets for electron projects",
+  "main": "dist/style.css",
+  "authors": [
+    "Steve Agalloco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "stylesheets",
+    "css",
+    "normalize"
+  ],
+  "homepage": "https://github.com/stve/neutron.css",
+  "ignore": [
+    "package.json",
+    "node_modules",
+    "test",
+    "tests"
+  ]
+}
