@@ -1,6 +1,6 @@
 {
   "name": "neutron.css",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Stylesheets for electron projects",
   "main": "neutron.css",
   "style": "neutron.css",
