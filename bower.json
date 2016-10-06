@@ -1,7 +1,7 @@
 {
   "name": "neutron-css",
   "description": "Stylesheets for electron projects",
-  "main": "dist/style.css",
+  "main": "neutron.css",
   "authors": [
     "Steve Agalloco"
   ],
@@ -9,6 +9,7 @@
   "keywords": [
     "electron",
     "stylesheets",
+    "native",
     "css",
     "normalize"
   ],

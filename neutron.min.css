@@ -1,0 +1,1 @@
+body,html{width:100%;height:100%}*,::after,::before,img{-webkit-user-drag:none}*,::after,::before{cursor:default;-webkit-user-select:none;outline:0}html{overflow:hidden}body{overflow:auto;overflow-x:hidden;font:caption}input,textarea{-webkit-user-select:text}form,input,optgroup,select,textarea{-webkit-user-select:text;-webkit-app-region:no-drag}button{cursor:default}

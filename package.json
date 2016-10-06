@@ -2,9 +2,11 @@
   "name": "neutron.css",
   "version": "0.1.0",
   "description": "Stylesheets for electron projects",
-  "main": "dist/style.css",
-  "style": "dist/style.css",
+  "main": "neutron.css",
+  "style": "neutron.css",
   "scripts": {
+    "lint": "stylelint neutron.css",
+    "min": "cleancss -o neutron.min.css neutron.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,6 +16,7 @@
   "keywords": [
     "electron",
     "stylesheets",
+    "native",
     "css",
     "normalize"
   ],
@@ -24,9 +27,8 @@
   },
   "homepage": "https://github.com/stve/neutron.css",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-stylelint": "^3.3.0",
+    "clean-css": "^3.4.20",
+    "stylelint": "^7.3.1",
     "stylelint-config-standard": "^13.0.2"
   }
 }
