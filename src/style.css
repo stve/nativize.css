@@ -10,7 +10,15 @@
 /* Prevent rubber-band scrolling of the whole "page" */
 html {
   height: 100%;
+  width: 100%;
   overflow: hidden;
+}
+
+body {
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 /* Re-enable text selection in form elements */
