@@ -7,11 +7,12 @@
   outline: none; /* remove autofocus glow */
 }
 
-/* Prevent rubber-band scrolling of the whole "page" */
 html {
-  height: 100%;
+  font-family: sans-serif;
+  height: 100%; /* Prevent rubber-band scrolling of the whole "page" */
   width: 100%;
   overflow: hidden;
+  cursor: default; /* use default cursor */
 }
 
 body {
@@ -21,31 +22,54 @@ body {
   height: 100%;
 }
 
-/* Re-enable text selection in form elements */
-input,
-textarea {
-  -webkit-user-select: text;
-}
+/* Text Selection */
 
 form,
 input,
 optgroup,
 select,
 textarea {
-  -webkit-user-select: text;
-  -webkit-app-region: no-drag;
+  -webkit-user-select: text; /* enable text selection in forms */
 }
+
+/* enable text selection in pre, code and where permitted */
+.is-selectable,
+pre,
+code {
+  -webkit-user-select: auto;
+  cursor: auto;
+}
+
+/* Buttons */
 
 button {
-  cursor: default;
+  cursor: default; /* use default cursor */
 }
 
-/* Use system font */
-body {
-  font: caption;
+/* Internal links - shouldn't look like links */
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  outline: none;
 }
 
-/* Disable dragging */
+/* External links - New window (target) + external links */
+
+a[target],
+a[href^="https://"],
+a[href^="http://"] {
+  border-bottom: 1px solid;
+}
+
+a:hover,
+a:focus {
+  border-bottom: none;
+}
+
+/* Images */
+
 img {
-  -webkit-user-drag: none;
+  -webkit-user-drag: none; /* disable dragging */
 }
