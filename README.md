@@ -30,7 +30,7 @@ Many of these features are sourced from [Jessica Lord's](https://github.com/jlor
 
 ### System Colors
 
-Want to go a step further? Have a look at [System Colors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors).
+Use [System Colors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#System_Colors) to closely match the OS.
 
 ## Contributing
 
