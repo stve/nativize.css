@@ -1,6 +1,8 @@
-# Neutron
+# neutron.css
 
-A collection of [styles](https://github.com/stve/neutron/blob/master/src/style.css) for making [electron](http://electron.atom.io) applications appear and act more like plain old native apps
+[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
+
+A collection of [styles](https://github.com/stve/neutron/blob/master/neutron.css) for making [electron](http://electron.atom.io) applications appear and act more like plain old native apps
 
 ## Installation
 
@@ -19,6 +21,10 @@ A collection of [styles](https://github.com/stve/neutron/blob/master/src/style.c
 * Disables text selection
 * Defaults cursors
 * Remove autofocus glow from form elements
+
+### How is this different from normalize.css?
+
+[normalize.css](https://github.com/necolas/normalize.css) does an amazing job of normalizing browser inconsistencies. neutron.css is a simpler project aimed at electron apps. It does not perform any resets of any kind and both normalize.css and neutron.css should be able to coexist happily within your project.
 
 ## Hat-tip
 
@@ -39,3 +45,8 @@ Please read the [contribution guidelines](CONTRIBUTING.md) in order to make the 
 ## Copyright
 
 Copyright (c) Steve Agalloco. See [LICENSE](https://github.com/stve/neutron.css/blob/master/LICENSE.md) for details.
+
+[license-image]: https://img.shields.io/npm/l/neutron.css.svg?style=flat-square
+[license-url]: LICENSE.md
+[npm-image]: https://img.shields.io/npm/v/neutron.css.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/neutron.css
