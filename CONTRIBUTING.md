@@ -1,4 +1,4 @@
-# Contributing to neutron.css
+# Contributing to nativize.css
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -92,11 +92,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/neutron.css
+   git clone https://github.com/<your-username>/nativize.css
    # Navigate to the newly cloned directory
-   cd neutron.css
+   cd nativize.css
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/stve/neutron.css
+   git remote add upstream https://github.com/stve/nativize.css
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -119,7 +119,7 @@ project:
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
 
-   Be sure to test the `neutron.css` file for style conformance.
+   Be sure to test the `nativize.css` file for style conformance.
 
    ```bash
    npm test
@@ -183,7 +183,7 @@ cutting new releases.
 
 1. Include all new functional changes in the CHANGELOG.
 2. Use a dedicated commit to increment the version. The version needs to be
-   added to the CHANGELOG (inc. date), the `package.json`, and `neutron.css`
+   added to the CHANGELOG (inc. date), the `package.json`, and `nativize.css`
    files.
 3. The commit message must be of `v0.0.0` format.
 4. Create an annotated tag for the version: `git tag -m "v0.0.0" 0.0.0`.

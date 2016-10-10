@@ -1,17 +1,17 @@
 {
-  "name": "neutron.css",
+  "name": "nativize.css",
   "version": "0.2.0",
   "description": "Stylesheets for electron projects",
-  "main": "neutron.css",
-  "style": "neutron.css",
+  "main": "nativize.css",
+  "style": "nativize.css",
   "scripts": {
-    "lint": "stylelint neutron.css",
-    "min": "cleancss -o neutron.min.css neutron.css",
+    "lint": "stylelint nativize.css",
+    "min": "cleancss -o nativize.min.css nativize.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stve/neutron.css.git"
+    "url": "git+https://github.com/stve/nativize.css.git"
   },
   "keywords": [
     "electron",
@@ -23,9 +23,9 @@
   "author": "Steve Agalloco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stve/neutron.css/issues"
+    "url": "https://github.com/stve/nativize.css/issues"
   },
-  "homepage": "https://github.com/stve/neutron.css",
+  "homepage": "https://github.com/stve/nativize.css",
   "devDependencies": {
     "clean-css": "^3.4.20",
     "stylelint": "^7.3.1",

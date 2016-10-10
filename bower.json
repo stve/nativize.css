@@ -1,7 +1,7 @@
 {
-  "name": "neutron-css",
+  "name": "nativize-css",
   "description": "Stylesheets for electron projects",
-  "main": "neutron.css",
+  "main": "nativize.css",
   "authors": [
     "Steve Agalloco"
   ],
@@ -13,7 +13,7 @@
     "css",
     "normalize"
   ],
-  "homepage": "https://github.com/stve/neutron.css",
+  "homepage": "https://github.com/stve/nativize.css",
   "ignore": [
     "package.json",
     "node_modules",
