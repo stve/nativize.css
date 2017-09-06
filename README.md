@@ -32,7 +32,7 @@ Many of these features are sourced from [Jessica Lord's](https://github.com/jlor
 
 ## Going even further
 
-[Ben Gotow's](https://github.com/bengotow) presentation [Building "Native Experiences" with Electron](https://www.youtube.com/watch?v=JIRXVGVPzn8) is a must watch for additional techniques to create a more native-feel to your electron app. [Slides](http://www.slideshare.net/bengotow/building-native-experiences-with-electron)
+[Ben Gotow's](https://github.com/bengotow) presentation [Building "Native Experiences" with Electron](http://www.slideshare.net/bengotow/building-native-experiences-with-electron) is a must watch for additional techniques to create a more native-feel to your electron app.
 
 ## Contributing
 
