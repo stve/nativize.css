@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/stve/nativize.css",
   "devDependencies": {
-    "clean-css": "^3.4.20",
+    "clean-css": "^4.2.3",
     "stylelint": "^7.3.1",
     "stylelint-config-standard": "^13.0.2"
   }
